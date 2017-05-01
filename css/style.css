@@ -194,7 +194,7 @@ a.item_add {
 /*--- slider-css --*/
 .slider {
 	position: relative;
-  width: 55%;
+  width: 80%;
   margin: 0 auto;
 }
 .rslides {
@@ -255,6 +255,11 @@ ul.callbacks_tabs.callbacks1_tabs {
 .banner{
 	border-bottom:1px solid #bcbcbc;
 	padding: 1em 0;
+  height: 65vh;
+  background-color: #9aba35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .banner-mat{
 	padding:0;
