@@ -194,8 +194,8 @@ a.item_add {
 /*--- slider-css --*/
 .slider {
 	position: relative;
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0 ;
 }
 .rslides {
   position: relative;
@@ -254,15 +254,18 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .banner{
 	border-bottom:1px solid #bcbcbc;
-	padding: 1em 0;
-  height: 65vh;
-  background-color: #9aba35;
+	/*padding: 1em 0;*/
+  /*height: 65vh;*/
+  /*background-color: #9aba35;*/
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .banner-mat{
 	padding:0;
+}
+.matter-banner{
+  padding: 0px;
 }
 /*--content--*/
 .content-top h1{
@@ -1364,7 +1367,7 @@ select.in-drop, select.in-drop1 {
 }
 @media(max-width:480px){
 .matter-banner,.banner-mat {
-  width: 60%;
+  width: 100%;
   padding: 0;
 }
 .banner-mat img {
