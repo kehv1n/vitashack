@@ -1920,3 +1920,27 @@ h1.typo1 {
 .in-drop{
   width: 80px !important;
 }
+
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-content {
+  margin-right: 20px;
+}
+.message-content > h1 {
+  font-size: 50px;
+  color: #9aba35;
+}
+
+
+.message-content > p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.message > img {
+  width: 40%;
+}
