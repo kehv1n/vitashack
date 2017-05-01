@@ -368,6 +368,10 @@ ul.callbacks_tabs.callbacks1_tabs {
 .top-footer1 input[type="submit"]:hover {
   background-color:#9aba35;
 }
+
+.top-footer {
+  margin-bottom: 40px;
+}
 .footer {
   border-top: 1px solid #BDBDBD;
 }
@@ -1881,6 +1885,7 @@ h1.typo1 {
 
 .img-responsive {
   margin-bottom: 20px !important;
+  height: 160px;
 }
 
 #prod {
@@ -1894,4 +1899,24 @@ h1.typo1 {
 .pi {
   max-width: 400px;
   max-height: 400px;
+}
+
+
+
+/*OK*/
+.simpleCart_shelfItem{
+  box-sizing: border-box;
+  transition: .5s;
+  height: 325px;
+}
+.simpleCart_shelfItem:hover{
+  border: 1px solid #e2734e;
+  border-bottom: 5px solid #e2734e;
+  box-shadow: 0px 0px 15px #e2734e;
+}
+.img-side-menu{
+  width: 70px
+}
+.in-drop{
+  width: 80px !important;
 }
